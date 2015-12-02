@@ -1,0 +1,20 @@
+<html ng-app="md-hello-world">
+<head>
+  <link rel="stylesheet" href="app/public/bower_components/angular-material/angular-material.min.css"/>
+  <script src="app/public/bower_components/angular/angular.min.js"></script>
+  <script src="app/public/bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="app/public/bower_components/angular-aria/angular-aria.min.js"></script>
+  <script src="app/public/bower_components/angular-material/angular-material.min.js"></script>
+  <script src="app/public/js/app.js"></script>
+  <title>Angular Material Hello World</title>
+</head>
+
+  <body>
+    <md-toolbar></md-toolbar>
+    <md-input-container>
+      <label>Name</label>
+      <input type="text" ng-model="name"/>
+    </md-input-container>
+    <p>Hello <strong>{{name}}</strong>!</p>
+  </body>
+</html>

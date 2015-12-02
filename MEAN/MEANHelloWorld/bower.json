@@ -1,0 +1,19 @@
+{
+  "name": "MEANHelloWorld",
+  "version": "1.0.0",
+  "authors": [
+    "Suman K <sumankotagiri28@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "bootstrap": "~3.3.6"
+  }
+}
